@@ -216,18 +216,10 @@ p { margin: 0 0 1.15rem; max-width: 62ch; }
 @media (max-width: 520px) { .wordmark img { height: 28px; } }
 .site-header .wordmark { flex-shrink: 0; }
 
-/* ---------- black header + footer (logo on black, chosen Nov 2026) ---------- */
-:root { --black: #111111; }
-.promo { background: var(--black); border-bottom: 1px solid rgba(255,255,255,.08); }
-.site-header { background: var(--black); box-shadow: none; color: #fff; }
-.site-header .nav a { color: #fff; }
-.site-header .nav a:hover, .site-header .nav a[aria-current="page"] { background: rgba(255,255,255,.1); color: var(--sun); }
-.site-header .nav .nav-cta, .site-header .nav .nav-cta:hover { color: #fff; }
-.site-header .nav .lang-switch { border-color: rgba(255,255,255,.25); color: #d9d9d9; }
-.site-header .nav .lang-switch:hover { border-color: var(--sun); background: transparent; color: var(--sun); }
-.nav-toggle { background: rgba(255,255,255,.12); color: #fff; }
-@media (max-width: 1080px) { .nav { background: var(--black); box-shadow: 0 12px 24px rgba(0,0,0,.35); } }
-.site-footer { background: var(--black); color: #cfcfcf; }
+/* ---------- white footer (Nov 2026) ---------- */
+.site-footer { background: #fff; color: var(--ink-soft); border-top: 1px solid var(--line); }
+.site-footer nav a { color: var(--ink); }
+.site-footer a:hover { color: var(--orange-dark); }
 .site-header .wordmark img { height: 42px; }
 .site-footer .wordmark img { height: 46px; }
 @media (max-width: 520px) { .site-header .wordmark img { height: 34px; } }
